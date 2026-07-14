@@ -9,9 +9,7 @@ text set in the data-text attribute. */
     font-size: 200%;
     font-family: 'Times New Roman', Times, serif;
     margin: 0%;
-    /* Animation provies a slight random skew. Check bottom of doc
-    for more information on how to random skew. */
-    animation: glitch-skew 1s infinite linear alternate-reverse;
+    /* Subtle flicker animation */
     animation: flicker 3.732s infinite linear alternate-reverse;
   }
 
